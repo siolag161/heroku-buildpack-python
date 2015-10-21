@@ -109,6 +109,7 @@ cd $BUILD_DIR
 # Experimental pre_compile hook.
 bpwatch start pre_compile
   source $BIN_DIR/steps/hooks/pre_compile
+  source $BIN_DIR/pre_compile
 bpwatch stop pre_compile
 
 # If no requirements given, assume `setup.py develop`.

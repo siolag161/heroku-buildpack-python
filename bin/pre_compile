@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 set -eo pipefail
+echo "-----> trying to install yuglify"
+
 if [ -f bin/install_yuglify ]; then
     echo "-----> Running install_yuglify"
     chmod +x bin/install_yuglify
