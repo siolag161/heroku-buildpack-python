@@ -9,4 +9,4 @@ if [ -f bin/install_yuglify ]; then
     bin/install_yuglify
 fi
 
-status "Post-compile done"
+echo "Post-compile done"
